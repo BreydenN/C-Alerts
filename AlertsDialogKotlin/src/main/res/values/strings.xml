@@ -1,0 +1,8 @@
+<resources>
+    <string name="exitoso">Exitoso</string>
+    <string name="se_realizo_con_xito">Se realizo con éxito!!</string>
+    <string name="error">Error</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="hecho">Hecho</string>
+    <string name="ha_ocurrido_un_error">Ha ocurrido un error.</string>
+</resources>

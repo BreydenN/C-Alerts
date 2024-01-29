@@ -5,4 +5,5 @@
     <string name="cerrar">Cerrar</string>
     <string name="hecho">Hecho</string>
     <string name="ha_ocurrido_un_error">Ha ocurrido un error.</string>
+    <string name="cargando">Cargando...</string>
 </resources>

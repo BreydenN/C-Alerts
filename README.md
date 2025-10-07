@@ -56,8 +56,8 @@ LoadingActivity.showLoadingDialog(this)
 LoadingActivity.closeLoadingDialog()
 
 // Éxito
-LoadingActivity.showSuccessDialog(this, "¡Listo!")
+SuccessActivity.showSuccessDialog(this)
 
 // Error
-LoadingActivity.showErrorDialog(this, "Algo falló")
+ErrorActivity.showErrorDialog(this)
 ```

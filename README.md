@@ -18,7 +18,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url = uri("https://jitpack.io") }
+        maven { url = uri("https://jitpack.io") } //Agregas esta línea
     }
 }
 ```
@@ -26,7 +26,7 @@ dependencyResolutionManagement {
 Opción A: Directamente en build.gradle.kts (app)
 ```kotlin
 dependencies {
-    implementation 'com.github.BreydenN:C-Alerts:1.1.0'
+    implementation ("com.github.BreydenN:C-Alerts:1.1.0")
 }
 ```
 
@@ -37,7 +37,7 @@ En gradle/libs.versions.toml:
 cAlerts = "1.1.0"
 
 [libraries]
-c-alerts = { group = "com.github.BreydenN", name = "C-Alerts", version.ref = "cAlerts" }
+cAlerts = { group = "com.github.BreydenN", name = "C-Alerts", version.ref = "cAlerts" }
 ```
 
 Luego en build.gradle.kts (app):
